@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SuperCalc</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="calc">
+        <div class="screen">
+            <span class="operation" id="operation">0</span>
+            <span class="result" id="result">result</span>
+        </div>
+
+
+      <div class="board">
+        <button class="clear big" data-type="clear" id="allClear">AC</button>
+        <button class="operator" data-type="backspace" id="backspace">C</button>
+        <button class="operator" data-type="operator" id="divide">÷</button>
+        <button class="digit" data-type="number" id="digit-7">7</button>
+        <button class="digit" data-type="number" id="digit-8">8</button>
+        <button class="digit" data-type="number" id="digit-9">9</button>
+        <button class="operator" data-type="operator" id="multiply">x</button>
+        <button class="digit" data-type="number" id="digit-4">4</button>
+        <button class="digit" data-type="number" id="digit-5">5</button>
+        <button class="digit" data-type="number" id="digit-6">6</button>
+        <button class="operator" data-type="operator" id="plus">+</button>
+        <button class="digit" data-type="number" id="digit-1">1</button>
+        <button class="digit" data-type="number" id="digit-2">2</button>
+        <button class="digit" data-type="number" id="digit-3">3</button>
+        <button class="operator" data-type="operator" id="minus">-</button>
+        <button class="digit" data-type="number" id="digit-0">0</button>
+        <button class="digit" data-type="decimal" id="dot">.</button>
+        <button class="equals big" data-type="equal" id="equals">=</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
