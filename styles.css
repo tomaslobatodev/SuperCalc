@@ -30,17 +30,26 @@ body {
     gap: 15px
 }
 
+.operationDiv {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: end;
+}
+
 .operation {
     font-size: 25px;
-    color: rgba(0, 0, 0, 0.692)
+    color: rgba(0, 0, 0, 0.692);
+    overflow: hidden;
+    width: 100%;
+    text-align: end;
 }
 
 .result {
-    font-size: 35px
+    font-size: 35px;
+    width: 100%;
+    text-align: end;
 }
-
-
-
 
 .board {
     width: 100%;
@@ -79,6 +88,11 @@ body {
 
 .del {
     background-color: rgb(61, 61, 61);
+}
+
+.del:hover {
+    background-color: rgb(36, 36, 36);
+    cursor: pointer;
 }
 
 .operator {
