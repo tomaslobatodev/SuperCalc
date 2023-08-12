@@ -4,7 +4,7 @@ body {
     justify-content: center;
     height: 100vh;
     background-color: brown;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
 }
 
 .calc {
